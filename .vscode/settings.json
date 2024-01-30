@@ -1,0 +1,7 @@
+{
+    "workbench.list.fastScrollSensitivity": 1,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.fastScrollSensitivity": 1
+}
