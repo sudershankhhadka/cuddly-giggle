@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Login from './login';
@@ -9,11 +9,24 @@ import Calculator from './calculator/calc';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- <>
-{/* <Login/>
+    <>
+        {/* <Login/>
 <Register/> */}
-{/* <Home/> */}
-<Calculator/>
-</>
+        {/* <Home/> */}
+        {/* <Calculator/> */}
+        <Counter />
+    </>
 );
 
+function Counter() {
+    const [count, setCount] = useState(0);
+    const handleCount = () => {
+        setCount((prevCount) => prevCount + 1);
+    }
+    return (
+        <div>
+            <p>You Clicked {count} times</p>
+            <button onClick={handleCount}>Click Me</button>
+        </div>
+    )
+}
