@@ -14,7 +14,9 @@ root.render(
 <Register/> */}
         {/* <Home/> */}
         {/* <Calculator/> */}
-        <Counter />
+        {/* <Counter /> */}
+        <CounterDetail count={count}/>
+        <CounterButton handleCount = {handleCount}/>
     </>
 );
 
@@ -28,5 +30,21 @@ function Counter() {
             <p>You Clicked {count} times</p>
             <button onClick={handleCount}>Click Me</button>
         </div>
+    )
+}
+
+
+
+function CounterDetail(count){
+    return(
+        <p>You Clicked {count} times</p>
+
+    )
+}
+
+function CounterButton(){
+    return(
+        <button onClick={handleCount}>Click Me</button>
+
     )
 }
