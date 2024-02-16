@@ -12,6 +12,7 @@ import ControlledForm from './controlledForm/Registration';
 import Event from './Event/event';
 import Login from './LoginPage/login';
 import Regis from './register/register';
+import RegisterWithFormik from './RegisterWithFormik';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
@@ -27,7 +28,8 @@ root.render(
         {/* <ControlledForm /> */}
         {/* <Event /> */}
         {/* <Login /> */}
-        <Regis />
+        {/* <Regis /> */}
+        <RegisterWithFormik />
 
     </>
 );

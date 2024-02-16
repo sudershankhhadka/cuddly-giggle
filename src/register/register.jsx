@@ -5,9 +5,9 @@ export default function Regis() {
 
             Name: <input type="text" name="name"></input><br />
             Email: <input type="email" name="email"></input><br />
-            Age: <input type="text" name="age"></input>
+            Age: <input type="text" name="age"></input><br />
             Gender:
-            Male <input type="radio" name="Gender" id="" /><br />
+            Male <input type="radio" name="Gender" id="" />
             Female <input type="radio" name="Gender" />
             <br /><br />
             <input type="submit" value="Submit" />
