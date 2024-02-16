@@ -20,6 +20,7 @@ function Appt(){
                 <input type="text" name="name" value={name}  onChange={(e)=>setName(e.target.value)}/>
                 <button type="submit">Submit</button>
             </form>
+            
         </div>
     )
 }
