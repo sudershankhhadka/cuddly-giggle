@@ -1,18 +1,20 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 // import './index.css';
 // import Login from './login';
-import Register from './register';
-import FormField from './form_field';
-import Home from './home/home';
-import Calculator from './calculator/calc';
-import App from './uncontrolledForm/index';
-import Appt from './controlledForm/index';
-import ControlledForm from './controlledForm/Registration';
-import Event from './Event/event';
-import Login from './LoginPage/login';
-import Regis from './register/register';
-import RegisterWithFormik from './RegisterWithFormik';
+// import Register from './register';
+// import FormField from './form_field';
+// import Home from './home/home';
+// import Calculator from './calculator/calc';
+// import App from './uncontrolledForm/index';
+// import Appt from './controlledForm/index';
+// import ControlledForm from './controlledForm/Registration';
+// import Event from './Event/event';
+// import Login from './LoginPage/login';
+// import Regis from './register/register';
+// import RegisterWithFormik from './RegisterWithFormik';
+import Register from './regustersu';
+import FormikForm from './FormikPractice/RegisterWithFormik';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
@@ -29,7 +31,9 @@ root.render(
         {/* <Event /> */}
         {/* <Login /> */}
         {/* <Regis /> */}
-        <RegisterWithFormik />
+        {/* <RegisterWithFormik /> */}
+        {/* <FormikForm /> */}
+        <Register />
 
     </>
 );
